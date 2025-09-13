@@ -36,6 +36,7 @@
 
     ul {
       font-size: 20px;
+      list-style-type: none; 
     }
 
 
@@ -96,7 +97,6 @@
      font-size: 25px;
      color: #ffffff;
      letter-spacing: 2px;
-     text-shadow: 0 0 15px #0e9c90b4;
      text-align: center;
      margin-top: 30px;
      margin-bottom: 30px;
@@ -113,11 +113,12 @@
      box-shadow: 0 0 8px #0e9c90b4;
      margin-top: 10px;
      margin-bottom: 10px;
+     margin-right: 20px;
+     margin-left: 20px;
     }
 
     div {
      width: 700px;
-     margin: 0 auto;
      padding: 0px;
      font-size: 1.15em;
      text-align: justify;
@@ -147,7 +148,13 @@
     text-decoration: none;
   }
 
-  li{
-    text-shadow : 0 0 5px #0e9c90b4;
+  img{
+    box-shadow: 0 0 12px #0e9c90 ;
+    border-radius: 12px;
+  }
+  
+  footer{
+    font-size: 11px;
+    color: #fff
   }
 
